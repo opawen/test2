@@ -1,0 +1,635 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel - 心在路上-基于PHP的旅游网站开发_严婧-严婧-何文娟-胡文毕业设计作品</title>
+    <meta name="description" content="travel" />
+    <meta name="author" content="huwen">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+  </head>
+<body>
+<div id="container" >
+    <header>
+    <section id="templatemo_banner_top" class="container_wapper" >
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8" >
+                    <p id="test"><a href="#">Travel</a> | <a href="#">用心规划每一条路线-何瑞-严婧-何文娟-胡文毕业设计作品</a></p>
+                </div>
+                <div class="col-md-4">
+                <div class="container" id="main" role="main">
+                <nav align="right">
+                 <ul class="menu">
+                  <li style="height:44px;">
+                  <a href="#">
+                  <span class="glyphicon glyphicon-user"></span>
+                  登录</a> 
+                   <ul class="submenu">
+                    <li><a href="bin/pLogin.html">游客登录</a></li>
+                    <li><a href="bin/fLogin.html">旅游公司登录</a></li>
+                    <li><a href="bin/login.html">管理员登录</a></li>
+                   </ul>
+                  </li>
+                 </ul>
+                </nav>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="templatemo_banner_logo" class="container_wapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-8 col-md-offset-4">
+                    <img src="images/templatemo_logo.png" alt="logo" />
+                    <h1><a href="#">Travel</a></h1><br /><br /><br />
+                    <span>自由快乐去旅行</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div id="photo_show">
+    <div id="tabs">
+        <ul>
+            <li><a href="#tabs-1">大溪地</a></li>
+            <li><a href="#tabs-2">马尔代夫</a></li>
+            <li><a href="#tabs-3">普吉岛</a></li>
+            <li><a href="#tabs-4">冰岛</a></li>
+            <li><a href="#tabs-5">毛里求斯</a></li>
+        </ul>
+        <div id="tabs-1">
+            <a href="html/d_daxidi.html">  <img src="images/x4.jpg" alt="图挂了咩 (╯°Д°)╯︵ ┻━┻ "></a>
+        </div>
+        <div id="tabs-2">
+            <a href="html/d_maerdaifu.html"> <img src="images/x5.jpg" alt="图挂了咩 (╯°Д°)╯︵ ┻━┻"> </a>
+        </div>
+        <div id="tabs-3">
+            <a href="html/d_pujidao.html">  <img src="images/x3.jpg" alt="图挂了咩 (╯°Д°)╯︵ ┻━┻"> </a>
+        </div>
+        <div id="tabs-4">
+            <a href=html/d_bingdao.html""> <img src="images/x4.jpg" alt="图挂了咩 (╯°Д°)╯︵ ┻━┻"> </a>
+        </div>
+        <div id="tabs-5">
+            <a href="html/maoliqiusi.html"> <img src="images/x1.jpg" alt="图挂了咩 (╯°Д°)╯︵ ┻━┻"></a>
+        </div>
+    </div>
+</div>
+    <section class="navi_body"  >
+    <div class="navi_head">
+        <nav style="width:80%; margin-left:auto; margin-right:auto;">
+					<span>
+						<p class="navi_title"><a href="#templatemo_banner_top">首页</a></p>
+					</span>
+
+            <span>
+						<p class="navi_title"><a href="#recommend">推荐</a></p>
+
+					</span>
+            <span>
+						<p class="navi_title"><a href="#outside">出境游</a></p>
+
+					</span>
+            <span>
+						<p class="navi_title"><a href="#view">景点</a></p>
+					</span>
+            <span>
+						<p class="navi_title"><a href="#gat">港澳台</a></p>
+					</span>
+            <span>
+						<p class="navi_title"><a href="#route">路线</a></p>
+					</span>
+            <span>
+						<p class="navi_title"><a href="#news">新闻</a></p>
+					</span>
+            <span>
+						<p class="navi_title"><a href="#hotal">酒店</a></p>
+					</span>
+            <span>
+						<p class="navi_title"><a href="#ticket">门票</a></p>
+					</span>
+            <span>
+						<p class="navi_title"><a href="#business">商旅</a></p>
+					</span>
+            <span>
+						<p class="navi_title"><a href="#sign">签证</a></p>
+					</span>
+            <span>
+						<p class="navi_title"><a href="#world">全球购</a></p>
+					</span>
+            <span>
+						<p class="navi_title"><a href="#plan">攻略</a></p>
+					</span>
+
+            <span>
+						<p class="navi_title"><a href="#us">关于我们</a></p>
+
+					</span>
+        </nav>
+    </div>
+</section>
+    </header>
+    <article>
+    <section id="recommend">
+    <div id="templatemo_upcomming_event" class="container_wapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 section_header">
+                    <h1>推荐</h1>
+                </div>
+                <div class="col-md-6 col-md-offset-3 col-md-offset-3">
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="event_box event_animate_left">
+                        <img src="images/event_01.jpg" alt="Event 1" class="img-responsive" />
+                        <ul>
+                            <li>
+                                    <span class="glyphicon glyphicon-calendar"></span>Wednesday<br />
+                                    <span class="glyphicon">&nbsp;</span>3<sup>rd</sup> May 2017<br />
+                            </li>
+                            <li>
+                                    <span class="glyphicon glyphicon-time"></span>Time<br />
+                                    <span class="glyphicon">&nbsp;</span>7:30 AM to 7:00 PM<br />
+                            </li>
+                            <li>
+                                    <span class="glyphicon glyphicon-map-marker"></span>兴坪古镇<br />
+                                    <span class="glyphicon">&nbsp;</span>银子岩<br />  
+                                    <span class="glyphicon">&nbsp;</span>阳朔<br />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="event_box event_animate_left">
+                        <img src="images/event_02.jpg" alt="Event 2" class="img-responsive" />
+                        <ul>
+                            <li>
+                                    <span class="glyphicon glyphicon-calendar"></span>Thursday<br />
+                                    <span class="glyphicon">&nbsp;</span>7<sup>th</sup> August 2017<br />
+                            </li>
+                            <li>
+                                    <span class="glyphicon glyphicon-time"></span>Time<br />
+                                    <span class="glyphicon">&nbsp;</span>7:00 PM to 6:30 PM<br />
+                            </li>
+                            <li>
+                                    <span class="glyphicon glyphicon-map-marker"></span>龙脊梯田<br />
+                                    <span class="glyphicon">&nbsp;</span>金坑大寨<br />  
+                                    <span class="glyphicon">&nbsp;</span>3号观景处<br />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="event_box event_animate_right">
+                        <img src="images/event_03.jpg" alt="Event 3" class="img-responsive" />
+                        <ul>
+                            <li>
+                                    <span class="glyphicon glyphicon-calendar"></span>Sunday<br />
+                                    <span class="glyphicon">&nbsp;</span>5<sup>th</sup> July 2017<br />
+                            </li>
+                            <li>
+                                    <span class="glyphicon glyphicon-time"></span>Time<br />
+                                    <span class="glyphicon">&nbsp;</span>18:15 PM ~ 8:15 PM<br />
+                            </li>
+                            <li>
+                                    <span class="glyphicon glyphicon-map-marker"></span>山顶缆车<br />
+                                    <span class="glyphicon">&nbsp;</span>摩天台<br />  
+                                    <span class="glyphicon">&nbsp;</span>杜莎夫人蜡像馆<br />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="event_box event_animate_right">
+                        <img src="images/event_04.jpg" alt="Event 4" class="img-responsive" />
+                        <ul>
+                            <li>
+                                    <span class="glyphicon glyphicon-calendar"></span>Saturday<br />
+                                    <span class="glyphicon">&nbsp;</span>2<sup>nd</sup> June 2017   <br />
+                            </li>
+                            <li>
+                                     <span class="glyphicon glyphicon-time"></span>Time<br />
+                                   <span class="glyphicon">&nbsp;</span>06:30 AM to 5:30 PM<br />
+                            </li>
+                            <li>
+                                   <span class="glyphicon glyphicon-map-marker"></span>厦门文化艺术中心<br />
+                                   <span class="glyphicon">&nbsp;</span>南靖土楼群<br /> 
+                                   <span class="glyphicon">&nbsp;</span>云水谣古镇<br />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="templatemo_clear">
+                    <div class="col-xs-6 event_animate_left" id="prev_event_btn">
+                    </div>
+                    <div class="col-xs-6 event_animate_right" id="next_event_btn">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      </section>
+    <section id="outside">
+      <div class="col-xs-12 section_header">
+          <h1>出境游</h1>
+      </div>
+      <article class="big_article" >
+          <section class="shows_one">
+              <h1>推荐游记</h1>
+              <div class="line_gray"></div>
+              <div class="jpgs_container" id="outsideImg">
+
+              </div>
+          </section>
+          <section class="shows_two">
+              <h1>海岛风情</h1>
+              <div class="line_gray"></div>
+              <a href="html/d_bingdao.html">
+                  <img src="./images/normal.jpg" alt="one">
+              </a>
+
+          </section>
+          <aside>
+              <h1>其他游记</h1> <a href="html/c_out.html"><h2>more</h2></a>
+              <div class="line_gray"></div>
+              <div class="recommend" id="outsideBox">
+
+                  <!--<a href="html/d_bingdao.html" class="words">惊艳极光，冰岛七日游</a> <br>-->
+                  <!--<a href="html/a_pujidao.html" class="words">普吉岛3天，花样美食+异域风情</a> <br>-->
+                  <!--<a href="html/a_pujidao2017.html" class="words">普吉岛，2017</a> <br>-->
+                  <!--<a href="html/d_maerdaifu.html" class="words">即将消失的美丽：马尔代夫</a> <br>-->
+                  <!--<a href="html/d_daxidi.html" class="words">秘密领域：大溪地</a> <br>-->
+                  <!--<a href="html/d_sanya.html" class="words">拒绝奔走，随心自驾 Ciro & Jessie 三亚跨年之旅</a> <br>-->
+                  <!--<a href="html/d_taiwan.html" class="words">台湾史上最强台湾交通攻略</a> <br>-->
+
+              </div>
+          </aside>
+      </article>
+      </section>
+    <section id="view">
+    <section id="templatemo_pricing" class="container_wapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 section_header">
+                    <h1>景点搜索</h1>
+                </div>
+                <div class="clearfix"></div>
+
+                <div align="center">
+                <form method="post" action="bin/search/sight_index.php">
+                <input type="text" name="search_view"/> <!--id=findspot-->
+                <input type="submit" value="搜索">
+                </form>
+                </div>
+
+                <div class="clearfix"></div>
+                <div class="col-md-4">
+                    <div class="price_table_box">
+                        <h1>西湖</h1>
+                        <ul>
+                            <li><span class="glyphicon glyphicon-pencil"></span> 杭州之美，美在西湖。西湖旧称武林水、钱塘湖、西子湖，宋代始称西湖。西湖位于杭州城西，三面环山，东面濒临市区，是一个湖泊型的国家级风景名胜区。1982年西湖被确定为国家风景名胜区，1985年被评为“中国十大风景名胜”之一。</li>
+                            <li>最佳游玩时间：每年的三到五月份</li>
+                            <li>推荐路线：环西湖的游览车单向顺时针绕湖行进，随上随下，上车买票，全程约70分钟。</li>
+                        </ul>
+                        <div><p><a href="#">详情</a></p></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="price_table_box">
+                        <h1>洛带古镇</h1>
+                        <ul>
+                            <li><span class="glyphicon glyphicon-pencil"></span> 景点介绍：洛带古镇位于龙泉镇北10公里，坐落在龙泉山脉中段的三峨山麓。洛带古镇建成区面积1平方公里，其建筑物大多为晚清与民国风格。</li>
+                            <li>最佳游玩时间：每年七月到八月</li>
+                            <li>推荐路线：在成都市内乘81路、58路等车到达五桂桥汽车站</li>
+                        </ul>
+                        <div><p><a href="#">详情</a></p></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="price_table_box">
+                        <h1>乌镇</h1>
+                        <ul>
+                            <li><span class="glyphicon glyphicon-pencil"></span> 景点介绍：乌镇是全国二十个黄金周预报景点及江南四大名镇之一。曾名乌墩和青墩，具有六千余年悠久历史。乌镇是典型的江南水乡古镇，素有“鱼米之乡，丝绸之府”之称。</li>
+                            <li>最佳游玩时间：每年的三到五月份</li>
+                            <li>推荐路线：西塘陪弄 -坟浜弄 -五姑娘主题公园 -独瓦亭 -尊闻堂 -石皮弄 -礼耕堂 -洛七原创书屋 -薛宅</li>
+                        </ul>
+                        <div><p><a href="#">详情</a></p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        </section>
+    <section id="gat">
+      <div class="col-xs-12 section_header">
+          <h1>港澳台</h1>
+      </div>
+      <article class="big_article">
+          <section class="shows_one">
+              <h1>推荐游记</h1>
+              <div class="line_gray"></div>
+              <div class="jpgs_container" id="gatImg">
+
+              </div>
+          </section>
+          <section class="shows_two">
+              <h1>铜锣湾</h1>
+              <div class="line_gray"></div>
+              <a href="html/gattongluowan.html">
+                  <img src="./images/tongluowan.jpg" alt="one">
+              </a>
+
+          </section>
+          <aside>
+              <h1>其他游记</h1> <a href="html/listgat.html"><h2>more</h2></a>
+              <div class="line_gray"></div>
+              <div class="recommend" id="gatBox">
+
+              </div>
+          </aside>
+      </article>
+</section>
+    <section id="route" class="container">
+            <div class="row">
+                <div id="templatemo_blog" class="container_wapper">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-xs-12 section_header">
+                        <h1>路线搜索</h1>
+                      </div>
+                      <div class="clearfix"></div>
+                      <div align="center">
+                      <form method="post" action="bin/search/route_index.php">
+                        <input type="text" id="findspot" name="search_route"/>
+                        <input type="submit" value="搜索">
+                      </form>
+                      </div>
+                      <div class="clearfix"></div>
+                      <div><p></p></div>
+                      <div class="clearfix"></div>
+                      <div class="col-sm-4 event_animate_left"> <img src="./images/templatemo_blog_01.jpg" alt="Blog Post 1" class="img-responsive" /> </div>
+                      <div class="col-sm-8 blog_text event_animate_right">
+                        <h1>亲子普吉之旅</h1>
+                        <p> <span class="glyphicon glyphicon-user"></span> 来自 <a href="#">慕容</a> &nbsp;&nbsp; <span class="glyphicon glyphicon-calendar"></span> 5<sup>th</sup> September 2017 &nbsp;&nbsp; <span class="glyphicon glyphicon-bookmark"></span> <a href="#">皇帝岛</a>, <a href="#">普吉岛</a>, <a href="#">亲子</a> </p>
+                        <p>作为泰国最大岛屿。在马来半岛北部西海岸外的安达曼海(Andaman Sea)，为普吉山脉向南伸入安达曼海中的部分一直吸引着我。第二次入泰，之前已独自去过曼谷芭提雅，孩子两岁时也已随我们去过三亚，这次想带他出国门，去海边的话怎么看普吉岛都是最适合亲子出游的首选海岛。蜜月时与老公去过马代，也想选择毛里求斯斐济之类，说实话普吉的海实在比不上这些，但长时间的飞行带着孩子折腾，普吉物价适中，要热闹去芭东，要安静去离岛或稍远海滩。于是开始提前几个月做攻略，之前定了两晚芭东+皮皮岛两晚+斯攀瓦两晚，后来听说普吉8月是雨季，一直关注的一个群里说有人因为台风困在皇帝岛回不来，损失之后的酒店住宿不算，离岛一日游也不出海，这里可以负责的说，因为台风不出海绝不是少数现象，我也这么不巧的遇到了，所以雨季去普吉最好不要选择离岛住宿，选本岛的高端酒店，再定个一日游什么，即使不去也可以全额退款。而且离岛酒店又小又简陋，岛上资源有限你想住个带泳池的？带庭园的？别想了....所以在临行前一个月临时改了酒店。之后证明自己决定是正确的，携程出发前有个群，大家在群里说去离岛住的都是狂风大雨上的岸，景色打折，心情也打折了。但是如果不是雨季，大家还是可以去住的。关于酒店由于我和老公是酒店控，所以我在出行前早已熟知各个酒店，导致我到了普吉一路开车我随口说出这是什么酒店，优缺点，所以我的每个选择都是进过深思熟虑，选择大家可以考虑。但是很多时候计划赶不上变化，行程上由于或天气或疲劳还是有所更改或取消，后面会说。算是给大家一些参考。</p>
+                      </div>
+                      <div class="clearfix"></div>
+                      <div class="col-sm-4 event_animate_left"> <img src="./images/templatemo_blog_02.jpg" alt="Blog Post 2" class="img-responsive" /> </div>
+                      <div class="col-sm-8 blog_text event_animate_right">
+                        <h1>韩国首尔之旅</h1>
+                        <p> <span class="glyphicon glyphicon-user"></span> 来自 <a href="#">认真生活</a> &nbsp;&nbsp; <span class="glyphicon glyphicon-calendar"></span> 8<sup>th</sup> June 2017 &nbsp;&nbsp; <span class="glyphicon glyphicon-bookmark"></span> <a href="#">韩国</a>, <a href="#">首尔</a>, <a href="#">明洞</a> </p>
+                        <p>旅行中不单单有的是简单的快乐，可能还会有很多的感悟和对事情的理解。我一直认为游记是给自己写的，每一篇游记我希望能够带给我一些想要的东西。旅游嘛，本来应该是快快乐乐的，是我太人格分裂还是太较真，每次的旅行都要探寻个究竟，总要找到自己想要的答案才能算是旅游。但这次找到的答案真是让我大跌眼镜啊，万万没有想到啊！真是当头一闷棍背后一板砖的感觉。</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                </section>
+    <section id="news">
+      <div class="col-xs-12 section_header">
+          <h1>新闻</h1>
+      </div>
+      <article class="big_article">
+          <section class="shows_one">
+              <h1>全国新闻</h1>
+              <div class="line_gray"></div>
+              <div class="recommend" id="newsBoxOne">
+
+              </div>
+          </section>
+          <section class="shows_two">
+              <h1>川内新闻</h1>
+              <div class="line_gray"></div>
+              <div class="recommend" id="newsBoxTwo">
+
+              </div>
+
+          </section>
+          <aside>
+              <h1>其他旅游资讯</h1> <a href="html/listnews.html"><h2>more</h2></a>
+              <div class="line_gray"></div>
+              <div class="recommend" id="newsBoxThree">
+
+              </div>
+          </aside>
+      </article>
+</section>
+    <section id="hotal">
+      <div class="col-xs-12 section_header">
+          <h1>酒店</h1>
+      </div>
+      <article class="big_article">
+          <section class="shows_one">
+              <h1>推荐酒店</h1>
+              <div class="line_gray"></div>
+              <div class="jpgs_container" id="hotalBoxOne">
+
+              </div>
+          </section>
+          <section class="shows_one">
+              <h1>经济酒店</h1>
+              <div class="line_gray"></div>
+             <div class="jpgs_container" id="hotalBoxTwo">
+
+             </div>
+
+          </section>
+          <aside>
+              <h1>豪华酒店</h1> <a href="html/listhotal.html"><h2>more</h2></a>
+              <div class="line_gray"></div>
+              <div class="jpgs_container" id="hotalBoxThree">
+
+              </div>
+          </aside>
+      </article>
+</section>
+    <section id="ticket">
+      <div class="col-xs-12 section_header">
+          <h1>门票</h1>
+      </div>
+        <article class="big_article">
+            <section class="shows_one">
+                <h1>特价门票</h1>
+                <div class="line_gray"></div>
+                <div class="jpgs_container" id="ticketBoxOne">
+
+                </div>
+            </section>
+            <section class="shows_one">
+                <h1>特价门票</h1>
+                <div class="line_gray"></div>
+                <div class="jpgs_container" id="ticketBoxTwo">
+
+                </div>
+
+            </section>
+            <aside>
+                <h1>特价门票</h1> <a href="html/listticket.html"><h2>more</h2></a>
+                <div class="line_gray"></div>
+                <div class="jpgs_container" id="ticketBoxThree">
+
+                </div>
+            </aside>
+        </article>
+</section>
+    <section id="business">
+      <div class="col-xs-12 section_header">
+          <h1>商旅</h1>
+      </div>
+        <article class="big_article">
+            <section class="shows_one">
+                <h1>商旅资讯</h1>
+                <div class="line_gray"></div>
+                <div class="jpgs_container" id="busyBoxOne">
+
+                </div>
+            </section>
+            <section class="shows_one">
+                <h1>特价门票</h1>
+                <div class="line_gray"></div>
+                <div class="jpgs_container" id="busyBoxTwo">
+
+                </div>
+
+            </section>
+            <aside>
+                <h1>特价门票</h1> <a href="html/listbusy.html"><h2>more</h2></a>
+                <div class="line_gray"></div>
+                <div class="jpgs_container" id="busyBoxThree">
+
+                </div>
+            </aside>
+        </article>
+</section>
+    <section id="sign">
+      <div class="col-xs-12 section_header">
+          <h1>签证</h1>
+      </div>
+      <article class="big_article">
+          <section class="shows_one">
+              <h1>港澳台签证</h1>
+              <div class="line_gray"></div>
+             <div id="signBoxOne">
+
+             </div>
+          </section>
+          <section class="shows_one">
+              <h1>欧美签证</h1>
+              <div class="line_gray"></div>
+              <div id="signBoxTwo">
+
+              </div>
+
+          </section>
+          <aside>
+              <h1>其他国家</h1> <a href="html/listsign.html"><h2>more</h2></a>
+              <div class="line_gray"></div>
+              <div class="recommend" id="signBoxThree">
+
+              </div>
+          </aside>
+      </article>
+</section>
+    <section id="world">
+      <div class="col-xs-12 section_header">
+          <h1>全球购</h1>
+      </div>
+        <article class="big_article">
+            <section class="shows_one">
+                <h1>全球购</h1>
+                <div class="line_gray"></div>
+                <div id="worldBoxOne">
+
+                </div>
+            </section>
+            <section class="shows_one">
+                <h1>全球购</h1>
+                <div class="line_gray"></div>
+                <div id="worldBoxTwo">
+
+                </div>
+
+            </section>
+            <aside>
+                <h1>全球购</h1> <a href="html/listworld.html"><h2>more</h2></a>
+                <div class="line_gray"></div>
+                <div class="recommend" id="WorldBoxThree">
+
+                </div>
+            </aside>
+        </article>
+</section>
+    <section id="plan">
+      <div class="col-xs-12 section_header">
+          <h1>攻略</h1>
+      </div>
+        <article class="big_article">
+            <section class="shows_one">
+                <h1>推荐攻略</h1>
+                <div class="line_gray"></div>
+                <div id="planBoxOne">
+
+                </div>
+            </section>
+            <section class="shows_one">
+                <h1>全球购</h1>
+                <div class="line_gray"></div>
+                <div id="planBoxTwo">
+
+                </div>
+
+            </section>
+            <aside>
+                <h1>全球购</h1> <a href="html/listplan.html"><h2>more</h2></a>
+                <div class="line_gray"></div>
+                <div class="recommend" id="planBoxThree">
+
+                </div>
+            </aside>
+        </article>
+
+</section>
+    <section id="us">
+                <div id="templatemo_contact">
+                <div class="row">
+                <div class="col-xs-12 section_header">
+                <h1>关于我们</h1>
+                </div>
+                <div class="clearfix"></div>
+
+                  <center>制作者：严婧-何瑞-何文娟-胡文</center><br/>
+
+
+
+                </div>
+            </div>
+</section>
+      </article>
+    <footer>
+    <div id="templatemo_footer" class="container_wapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <p>Copyright &copy; 2017.J1701001 All rights reserved.<a target="_blank" href="#">电子科技大学成都学院毕业设计作品</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+      </footer>
+<script src="./js/jquery.js"></script>
+<script src="./js/index.js"></script>
+    <!--<script src="js/jquery.min.js"></script>-->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/templatemo_script.js"></script>
+<script src="bin/config/test.js"></script>
+      <!--<script src="bin/config/indexInformation.js"></script>-->
+</div>
+</body>
+</html>

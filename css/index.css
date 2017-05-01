@@ -1,0 +1,251 @@
+#container {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+}
+header{
+    width:100%;
+    background-image: url("../images/big_one.jpeg");
+    background-size:cover;
+    position: relative;
+}
+body{
+    margin:0;
+    font-family:'微软雅黑','Times New Roman', Times, serif;
+}
+.navi_head{
+    height:50px;
+    background-color:#459df5;
+}
+.navi_body{
+    overflow:hidden;
+    height:50px;
+    width:100%;
+    /*background:rgba(36,97,158,0.9);*/
+    background: #459df5;
+    transition:height ease 0.5s;
+    position: fixed; top: 0;
+    z-index: 100;
+}
+/*.navi_body:hover{*/
+/*height:300px;*/
+/*}*/
+
+.navi_head>nav>span{
+    width:70px;
+    text-align:center;
+    height:300px;
+    display:inline-block;
+    font-weight:bold;
+    color:#FFF;
+    font-size:18px;
+    vertical-align:top;
+
+}
+
+.navi_head>nav>span>p a{
+    color:#FFF;
+    text-decoration:none;
+}
+.navi_head>nav>span>p a:hover{
+    color:#FFF;
+    text-decoration:underline;
+}
+
+.navi_title{
+    font-size:16px;
+    line-height:50px;
+    margin-top:0;
+}
+.navi_head>nav>span:hover{
+    background:rgba(100,100,100,0.2);
+}
+/*nav css and search*/
+.header_member{
+    float: right;
+    position: absolute;
+    top:15px;
+    right:20px;
+    color:#555555;
+}
+.header_member a{
+    text-decoration: none;
+    color: #555555;
+
+}
+.section_rules{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.search{
+    position:absolute;
+    width:500px;
+    height: 50px;
+    border:1px solid red;
+    top:40%;
+    left:35%;
+    line-height: 50px;
+}
+.search_main h1{
+    float: left;
+    font-size: 28px;
+}
+.search_main input{
+    height: 40px;
+    width:320px;
+    border:1px solid #ccc;
+    background: #fff;
+    font-size:18px;
+    text-indent: 5px;
+    float: left;
+}
+#search_btn{
+    margin-left: 10px;
+    font-size:18px;
+}
+#reg{
+    padding: 15px 0 0 0;
+}
+
+#reg_form p{
+    margin: 10px 0 0 20px;
+    padding: 0;
+}
+#reg_form span{
+    font-size: 14px;
+    color:maroon;
+}
+#reg_form ol{
+    margin: 0 0 0 20px;
+}
+#reg_form ol li{
+    height:20px;
+    color:maroon;
+}
+#reg_form input[id^="r"],#user{
+    border-radius: 4px;
+    border:1px solid #ccc;
+    background:#fff;
+    width:200px;
+    height:25px;
+    line-height: 25px;
+    text-indent: 5px;
+    color:#666;
+}
+#login{
+    padding: 15px 0 0 0;
+}
+#login p{
+    margin: 10px 0 0 20px;
+    padding: 0;
+}
+#login span{
+    font-size: 14px;
+    color:maroon;
+}
+#login ol{
+    margin: 0 0 0 20px;
+}
+#login ol li{
+    height:20px;
+    color:maroon;
+}
+#login input{
+    border-radius: 4px;
+    border:1px solid #ccc;
+    background:#fff;
+    width:200px;
+    height:25px;
+    line-height: 25px;
+    text-indent: 5px;
+    color:#666;
+}
+.ui-tabs .ui-tabs-panel{
+    padding: 0;
+}
+#tabs{
+    width: 820px;
+    height: 555px;
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: transparent;
+}
+.big_article{
+    width:85%;
+    margin: 0 auto;
+    display:flex;
+}
+#big_article{
+    width:85%;
+    margin: 0 auto;
+    display:flex;
+}
+.shows_one {
+    width: 400px;
+}
+.shows_one h1{color:black;
+    font-size:24px;
+    line-height:100px;}
+.jpgs_container{display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;}
+.jpgs{padding:10px 20px 0 0;
+}
+.line_gray{border:1px solid darkgray;
+    margin:0 20px 20px 0;}
+.shows_two{width:400px;}
+.shows_two h1{color:black;
+    font-size: 24px;
+    line-height: 100px;}
+.shows_two img{
+    width: 340px;
+    padding:10px 0;}
+aside{width:400px;}
+aside h1{ color:black;
+    font-size:24px;
+    line-height:100px;
+    display: inline-block}
+aside h2{
+    display: inline-block;
+    font-size: 18px;
+    color: darkgray;
+    margin-left: 100px;
+}
+.words{display: block;
+    line-height:36px;
+    border-bottom:1px dashed darkgray;
+}
+#big_article_GAT{
+    width:85%;
+    margin: 0 auto;
+    display:flex;
+}
+footer{
+    background-color: #459df5;
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;}
+#us{
+    text-align: center;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#contact{
+    width:50%;}
+#users_texts{vertical-align:top;}
+#admin{
+    width:100%;
+}
+#contact_us input,#contact_us textarea{
+    background:black;
+    opacity:0.6;
+}
+#users_submit{color:white;}
+#admin p{
+    margin: 20px 10px;
+    text-align: center;
+}

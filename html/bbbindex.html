@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页</title>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/jquery-ui.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/data_chinese.js"></script>
+    <script src="../js/jquery.indexSlidePattern.js"></script>
+    <link rel="stylesheet" href="../css/jquery-ui.theme.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+<div id="container">
+    <header>
+        <div class="navi_body">
+            <div class="navi_head">
+                <nav style="width:80%; margin-left:auto; margin-right:auto;">
+					<span>
+						<p class="navi_title">首页</p>
+					</span>
+                    <span>
+						<p class="navi_title">关于我们</p>
+						<p><a href="">团队介绍</a></p>
+						<p><a href="">服务QQ群</a></p>
+						<p><a href="">个人业务</a></p>
+					</span>
+                    <span>
+						<p class="navi_title">软件下载</p>
+						<p><a href="">WEB编译工具</a></p>
+						<p><a href="">桌面整理工具</a></p>
+					</span>
+                    <span>
+						<p class="navi_title">招贤纳士</p>
+						<p><a href="">WEB前端工程师</a></p>
+						<p><a href="">JAVAWEB工程师</a></p>
+						<p><a href="">APP开发工程师</a></p>
+						<p><a href="">数据库工程师</a></p>
+						<p><a href="">软件架构师</a></p>
+						<p><a href="">技术客服</a></p>
+					</span>
+                    <span>
+						<p class="navi_title">给我留言</p>
+						<p><a href="">站内留言</a></p>
+						<p><a href="">站长信箱</a></p>
+					</span>
+                </nav>
+            </div>
+        </div>
+        <ul id="photo_show">
+            <li class="active" style="">
+                <a href="#">
+                    <img src="../images/1.png" alt="">
+                </a>
+                <div style="">
+                    <a href="">照片说明</a>
+                </div>
+            </li>
+            <li class="" style="">
+                <a href="#">
+                    <img src="../images/2.png" alt="">
+                </a>
+                <div style="">
+                    <a href="#">照片说明</a>
+                </div>
+            </li>
+            <li class="" style="">
+                <a href="#">
+                    <img src="../images/3.png" alt="">
+                </a>
+                <div style="">
+                    <a href="#">照片说明</a>
+                </div>
+            </li>
+            <li class="" style="">
+                <a href="#">
+                    <img src="../images/4.png" alt="">
+                </a>
+                <div style="">
+                    <a href="#">照片说明</a>
+                </div>
+            </li>
+            <li class="" style="">
+                <a href="#">
+                    <img src="../images/5.png" alt="">
+                </a>
+                <div style="">
+                    <a href="#">照片说明</a>
+                </div>
+            </li>
+        </ul>
+    </header>
+    <article>
+        <section class="shows_one">
+            <h1>推荐游记</h1>
+            <div class="line_gray"></div>
+           <div class="jpgs_container">
+               <div class="jpgs">
+                   <img src="../images/show_one.jpg" alt="one"> <br>
+                   <p>推荐景点</p>
+               </div>
+               <div class="jpgs">
+                   <img src="../images/show_one.jpg" alt="two"> <br>
+                   <p>推荐景点</p>
+               </div>
+               <div class="jpgs">
+                   <img src="../images/show_one.jpg" alt="three"> <br>
+                   <p>推荐景点</p>
+               </div>
+               <div class="jpgs">
+                   <img src="../images/show_one.jpg" alt="four"> <br>
+                   <p>推荐景点</p>
+               </div>
+           </div>
+        </section>
+        <section class="shows_two">
+            <h1>海岛风情</h1>
+            <div class="line_gray"></div>
+
+                <img id="jpg_m" src="../images/normal.jpg" alt="one">
+
+        </section>
+        <aside>
+            <h1>海岛风情</h1>
+            <div class="line_gray"></div>
+            <div class="recommend">
+                <a href="" class="words">惊艳极光，冰岛七日游</a> <br>
+                <a href="./a_pujidao.html" class="words">普吉岛3天，花样美食+异域风情</a> <br>
+                <a href="./a_pujidao2017.html" class="words">普吉岛，2017</a> <br>
+                <a href="" class="words">即将消失的美丽：马尔代夫</a> <br>
+                <a href="" class="words">秘密领域：大溪地</a> <br>
+                <a href="" class="words">三亚亚龙湾5日游</a> <br>
+                <a href="" class="words">文艺生活：大理</a> <br>
+            </div>
+        </aside>
+    </article>
+    <footer>
+        <div id="us">
+            <section class="ourwords">
+                <h1>关于我们</h1>
+                <p>写代码写代码写代码写代码写代码写代码写代码写代码 <br>
+                    写代码写代码写代码写代码写代码写代码写代码写代码 <br>
+                    写代码写代码写代码写代码写代码写代码写代码写代码 <br>
+                    写代码写代码写代码写代码写代码写代码写代码写代码
+                </p>
+            </section>
+        </div>
+        <div id="contact">
+            <form method="post" action="../php/save.php" id="contact_us">
+                <br> <br>
+                <h5>联系我们</h5> <br>
+                <label for="users_name">姓名：</label>
+                <input type="text" id="users_name" /> <br> <br>
+                <label for="users_email">邮箱：</label>
+                <input type="email" id="users_email" /> <br> <br>
+                <label for="users_tel">电话：</label>
+                <input type="tel" id="users_tel" /> <br> <br>
+                <label for="users_text" id="users_texts">内容：</label>
+                <textarea name="内容" id="users_text" cols="30" rows="10" form="contact_us"></textarea> <br> <br>
+                <input type="submit" value="提交" id="users_submit"> <br> <br> <br>
+            </form>
+        </div>
+        <div id="admin">
+            <p><font face="Arial">©</font>2017&nbsp;电子科技大学成都学院&nbsp;毕业设计</p> <br>
+            <p>本站由小组J1701001完成&nbsp;<a href="#">管理员登陆</a> </p>
+            <br> <br> <br>
+            <p>别拉啦，到底了。</p>
+            <br> <br> <br>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

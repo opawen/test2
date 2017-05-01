@@ -1,0 +1,40 @@
+#container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+#d_article{
+    width:70%;
+    text-align: center;
+}
+#d_article h1{
+    font-family: "微软雅黑", Helvetica, sans-serif;
+    font-size: 28px;
+    margin: 30px;
+    text-align: center;
+}
+#d_article h2{
+    font-family: "微软雅黑", Helvetica, sans-serif;
+    font-size: 24px;
+    margin: 25px 0px;
+    text-align: center;
+}
+#d_article h3{
+    font-family: "微软雅黑", Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+}
+#d_article p {
+    font-family: "微软雅黑", Helvetica, sans-serif;
+    font-size: 24px;
+    margin: 28px 0;
+    line-height: 30px;
+}
+#d_article img{
+    display: block;
+    margin:30px auto;
+}
+#d_article a{
+    font-size: 20px;
+}
